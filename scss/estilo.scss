@@ -16,6 +16,10 @@
 // APLICACION DE SASS
 
 @import "variable";
+@import "header";
+@import "footer";
+
+
 
 /*body*/
 
@@ -31,23 +35,7 @@
 }
 
 
-/* Header */
 
-header {
-  background-color: darkcyan !important;
-  color: white !important; 
-  align-items: center;
-  
-    .navBarM {
-      background-color: darkcyan !important ;
-      
-
-    }
-}
-
-.tamLetra {
-  font-size: 1.2rem;
-}
 
   
 
@@ -78,10 +66,12 @@ section{
     
   .parrafoInicio{
 
-  margin: 25px;
+  
+    margin: 25px;
   }
    
-  .parrafoEstilo3{
+  
+   .parrafoEstilo3{
     font-size: 1.2rem;
 
 }
@@ -91,37 +81,7 @@ section{
 
 
 
-/* FOOTER  */
-  
-footer {
-    background-color: darkcyan;
-    color: white;
-    font-size: 1rem;
 
-    ul{
-
-    
-
-      li{
-
-        font-size: 1rem;
-
-        a{
-
-          color: white !important;
-
-
-          &:hover {
-            background-color: darkcyan;
-          }
-
-        }
-      };
-    }
-  
-  
-  
-}
  
   
 /* Pagina de productos */
@@ -130,6 +90,7 @@ footer {
     height: 300px;
     object-fit: cover;
 }
+
 .imgProducto1{
     margin: 7px;
   
@@ -140,12 +101,14 @@ footer {
 }
 
 .btnColor1{
+
     background-color: darkcyan;
       color: white;
       font-size: 1.2rem;
 }
   
 /* Pagina de contacto */
+
   .imgContacto{
     object-fit: cover;
     width: 500px;
@@ -170,3 +133,4 @@ footer {
     color: white;
     font-size: 1.2rem;
 }
+
