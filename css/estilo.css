@@ -9,7 +9,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.header {
+header {
   background-color: darkcyan !important;
   color: white !important;
   align-items: center; }
@@ -23,7 +23,7 @@
 }
 
 /* FOOTER  */
-.footer {
+footer {
   background-color: darkcyan;
   color: white;
   font-size: 1rem; }
