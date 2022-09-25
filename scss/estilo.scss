@@ -102,12 +102,38 @@ section{
 
 .btnColor1{
 
-    background-color: darkcyan;
-      color: white;
-      font-size: 1.2rem;
+  background-color: darkcyan;
+    
+    font-size: 1.2rem;
 }
   
 /* Pagina de contacto */
+
+.contenedorForm {
+  background-color: darkcyan;
+    width: 320px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 5px 10px 5px #000;
+
+}
+
+
+  .contenedorForm1{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+    
+
+  }
+
 
   .imgContacto{
     object-fit: cover;
