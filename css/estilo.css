@@ -7,7 +7,28 @@
 
 /*Letra importada de Google Fonts*/
 /* Header */
+header {
+  background-color: darkcyan !important;
+  color: white !important;
+  align-items: center; }
+  header .navBarM {
+    background-color: darkcyan !important; }
+
+.tamLetra {
+  font-size: 1.2rem; }
+
 /* FOOTER  */
+footer {
+  background-color: darkcyan;
+  color: white;
+  font-size: 1rem; }
+  footer ul li {
+    font-size: 1rem; }
+    footer ul li a {
+      color: white !important; }
+      footer ul li a:hover {
+        background-color: darkcyan; }
+
 /*body*/
 .container {
   background-color: #c5f1e3;
