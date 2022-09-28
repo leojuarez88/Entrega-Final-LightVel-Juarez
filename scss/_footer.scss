@@ -1,31 +1,32 @@
+
 /* FOOTER  */
   
 footer {
-    $background-color: darkcyan;
-    $color: white;
-    $font-size: 1rem;
+    background-color: darkcyan;
+    color: white !important;
+    font-size: 1.2rem;
 
     ul{
-
-    
-
+  
+  
       li{
-
-        $font-size: 1rem;
-
-        a{
-
-          $color: white !important;
-
-
-          &:hover {
-            $background-color: darkcyan;
-          }
-
+  
+        font-size: 1.2rem;
+        
+        &:visited {
+            color: black;
         }
-      };
+  
+        a{
+  
+          color: white !important;
+  
+          &:hover {
+            background-color: darkcyan;}
+  
+        }
+      }
     }
   
-  
-  
 }
+  
